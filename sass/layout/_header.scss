@@ -1,0 +1,127 @@
+.header {
+  // position: relative;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 1rem;
+  z-index: 500;
+  width: 100%;
+  top: 0;
+
+  .logo {
+    display: inline-block;
+    // margin-left: 2rem;
+  }
+
+  .navbar {
+    display: inline-block;
+    font-size: 1.072rem;
+    padding: 1.5rem;
+    position: absolute;
+    margin-top: -1rem;
+
+    a.home__link {
+      border: 1px solid lightskyblue;
+      border-radius: 20px;
+      color: lightskyblue;
+    }
+
+    ul {
+      li {
+        display: inline-block;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+          padding: 0.3rem 1.2rem;
+
+          &:hover {
+            border: 1px solid lightskyblue;
+            border-radius: 20px;
+            color: lightskyblue;
+            transition: 0.3s;
+          }
+        }
+      }
+    }
+  }
+
+  &__right {
+    font-size: 1.072rem;
+    color: #fff;
+    margin: 0 2rem;
+
+    &--search {
+      padding: 0.5rem 1rem;
+      background-color: #999;
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      outline: none;
+      &::placeholder {
+        color: #fff;
+      }
+    }
+    i {
+      margin: 0 0.5rem;
+
+      &.fa-angle-down {
+        &:hover {
+          cursor: pointer;
+          color: lightskyblue;
+          transform: scale(1.1);
+          transition: 0.5s;
+        }
+      }
+    }
+    p {
+      display: inline-block;
+    }
+  }
+}
+
+// Genre Mood page
+
+.header {
+  &__center {
+    // display: flex;
+    // align-items: center;
+    padding-left: 22rem;
+
+    ul {
+      li {
+        display: inline-block;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 0.9rem;
+          margin-right: 1rem;
+          padding-bottom: 1rem;
+          transition: all 0.3s;
+
+          &:hover {
+            padding-bottom: 1rem;
+            cursor: pointer;
+            color: lightskyblue;
+            border-bottom: 1px solid lightskyblue;
+          }
+        }
+
+        .border-bottom {
+          padding-bottom: 1rem;
+          color: lightskyblue;
+          border-bottom: 1px solid lightskyblue;
+        }
+      }
+    }
+  }
+}
+
+// /Genre Mood page
+
+// Start Talk page
+
+// Start Talk page
