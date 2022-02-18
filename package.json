@@ -1,0 +1,23 @@
+{
+  "name": "magic-music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XusniddinNarkulov/Magic-Music.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XusniddinNarkulov/Magic-Music/issues"
+  },
+  "homepage": "https://github.com/XusniddinNarkulov/Magic-Music#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
