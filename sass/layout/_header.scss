@@ -7,8 +7,9 @@
   background-color: #1a1a1a;
   padding: 1rem;
   z-index: 500;
-  width: 100%;
+  width: 100vw;
   top: 0;
+  margin-left: -4%;
 
   .logo {
     display: inline-block;
@@ -37,12 +38,12 @@
           color: #fff;
           padding: 0.3rem 1.2rem;
 
-          &:hover {
-            border: 1px solid lightskyblue;
-            border-radius: 20px;
-            color: lightskyblue;
-            transition: 0.3s;
-          }
+          // &:hover {
+          //   border: 1px solid lightskyblue;
+          //   border-radius: 20px;
+          //   color: lightskyblue;
+          //   transition: 0.3s;
+          // }
         }
       }
     }
@@ -68,12 +69,12 @@
       margin: 0 0.5rem;
 
       &.fa-angle-down {
-        &:hover {
-          cursor: pointer;
-          color: lightskyblue;
-          transform: scale(1.1);
-          transition: 0.5s;
-        }
+        // &:hover {
+        //   cursor: pointer;
+        //   color: lightskyblue;
+        //   transform: scale(1.1);
+        //   transition: 0.5s;
+        // }
       }
     }
     p {
@@ -102,12 +103,12 @@
           padding-bottom: 1rem;
           transition: all 0.3s;
 
-          &:hover {
-            padding-bottom: 1rem;
-            cursor: pointer;
-            color: lightskyblue;
-            border-bottom: 1px solid lightskyblue;
-          }
+          // &:hover {
+          //   padding-bottom: 1rem;
+          //   cursor: pointer;
+          //   color: lightskyblue;
+          //   border-bottom: 1px solid lightskyblue;
+          // }
         }
 
         .border-bottom {
