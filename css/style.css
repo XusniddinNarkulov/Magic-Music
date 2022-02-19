@@ -485,3 +485,10 @@ body {
 
 .anthems-left {
   margin-right: 2rem; }
+
+.plated {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  text-align: center; }
+  .plated p + p {
+    color: antiquewhite; }
